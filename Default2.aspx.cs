@@ -16,7 +16,7 @@ public partial class Default2 : System.Web.UI.Page
     {
         string myDate = Calendar1.SelectedDate.ToShortDateString();
         string birthday = "5/9/2017";
-        string momDay = "5/14/2017";
+   
 
         if (myDate.Equals(birthday))
         {
